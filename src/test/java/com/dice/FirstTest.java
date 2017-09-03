@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class FirstTest {
   
   @Test
-  public void firstTestMethod(){
+  public void openDice(){
     System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
     
     WebDriver driver = new ChromeDriver();
@@ -21,12 +21,12 @@ public class FirstTest {
   }
   
   @Test
-  public void secondTestMethod(){
+  public void openLinkedin(){
     System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
     
     WebDriver driver = new ChromeDriver();
     
-    //Open linkedin.com
+    
     driver.get("http://www.linkedin.com");
     System.out.println("Dice opened");
     
