@@ -7,13 +7,5 @@
 
 # all files in test-output/ folder
 test-output/
-test-output/Default suite/Default test.html
-test-output/Default suite/Default test.xml
-test-output/emailable-report.html
-test-output/index.html
-test-output/junitreports/TEST-com.dice.FirstTest.xml
-test-output/old/Default suite/classes.html
-test-output/old/Default suite/methods-alphabetical.html
-test-output/old/Default suite/methods.html
-test-output/old/index.html
-test-output/testng-results.xml
+
+*.txt
