@@ -28,7 +28,7 @@ public class FirstTest {
     
     
     driver.get("http://www.linkedin.com");
-    System.out.println("Dice opened");
+    System.out.println("Linkedin opened");
     
     driver.quit();
   }
