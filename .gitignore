@@ -2,4 +2,4 @@
 
 .vscode
 .idea
-test-output/
+test-output/*
